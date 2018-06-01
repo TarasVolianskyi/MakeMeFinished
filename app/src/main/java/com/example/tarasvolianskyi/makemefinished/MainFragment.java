@@ -152,15 +152,15 @@ public class MainFragment extends Fragment {
     }
 
     private void deleteUser(String userId) {
-        DatabaseReference dbrefUser = FirebaseDatabase.getInstance().getReference("user").child(userId);
+        DatabaseReference dbrefTask = FirebaseDatabase.getInstance().getReference("tasks").child(userId);
         DatabaseReference dbrefOptions = FirebaseDatabase.getInstance().getReference("options").child("option_" + userId);
-        dbrefUser.removeValue();
+        dbrefTask.removeValue();
         dbrefOptions.removeValue();
         Toast.makeText(getContext(), "Deleted successfully", Toast.LENGTH_SHORT).show();
     }
 
     private boolean updateUser(String id, String name, String category) {
-        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("user").child(id);
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("tasks").child(id);
         TasksPojo tasksPojo = new TasksPojo(id, name, category);
         databaseReference.setValue(tasksPojo);
         Toast.makeText(getContext(), "User update successfully", Toast.LENGTH_SHORT).show();
