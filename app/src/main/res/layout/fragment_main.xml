@@ -5,41 +5,26 @@
     android:orientation="vertical">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp">
-
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="200dp">
-
-            <ListView
-                android:id="@+id/lv_tasks_fragment_main"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-            </ListView>
-
-        </ScrollView>
-
-    </LinearLayout>
-
     <EditText
-        android:id="@+id/et_add_new_task_fragment_main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/btn_add_new_task_fragment_main"
+        android:id="@+id/et_text_for_entering_main_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="add new task"
-        android:textSize="24dp" />
+        android:hint="New task"/>
 
-    <TextView
-        android:id="@+id/tvTestTekst"
+    <Spinner
+        android:id="@+id/spinner_categories_main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/genres_items"></Spinner>
+
+    <Button
+        android:id="@+id/btn_add_task_main_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/lv_data_of_tasks_from_firebase_main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
 
 </LinearLayout>

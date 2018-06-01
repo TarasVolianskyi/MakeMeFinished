@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MakeMeFinished</string>
+
+    <array name="genres_items">
+        <item>Very_important</item>
+        <item>Important</item>
+        <item>Less_important</item>
+    </array>
 </resources>
