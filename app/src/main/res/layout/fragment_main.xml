@@ -9,7 +9,7 @@
         android:id="@+id/et_text_for_entering_main_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="New task"/>
+        android:hint="New task" />
 
     <Spinner
         android:id="@+id/spinner_categories_main_fragment"
@@ -21,11 +21,26 @@
         android:id="@+id/btn_add_task_main_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add task"/>
+        android:text="Add task" />
 
     <ListView
         android:id="@+id/lv_data_of_tasks_from_firebase_main_fragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="match_parent"
+        android:layout_weight="1"></ListView>
+
+
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+
+
+
 
 </LinearLayout>
