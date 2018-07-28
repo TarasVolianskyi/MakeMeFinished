@@ -11,6 +11,17 @@
         android:layout_height="wrap_content"
         android:text="Login" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv-token"/>
+
+    <Button
+        android:id="@+id/btn_logout_main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
     <EditText
         android:id="@+id/et_text_for_entering_main_fragment"
         android:layout_width="match_parent"

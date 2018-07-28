@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -112,6 +113,7 @@ public class GoogleSignInActivity extends BaseActivity implements
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
+                           // Toast.makeText(GoogleSignInActivity.this, "success", Toast.LENGTH_SHORT).show();
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
                         } else {
@@ -136,7 +138,7 @@ public class GoogleSignInActivity extends BaseActivity implements
     }
     // [END signin]
 
-    private void signOut() {
+    public void signOut() {
         // Firebase sign out
         mAuth.signOut();
 
@@ -172,6 +174,20 @@ public class GoogleSignInActivity extends BaseActivity implements
 
             findViewById(R.id.sign_in_button).setVisibility(View.GONE);
             findViewById(R.id.sign_out_and_disconnect).setVisibility(View.VISIBLE);
+
+/*
+            //go to first page
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            Intent intent = new Intent(this, MainActivity.class);
+            //intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
+*/
+
         } else {
             mStatusTextView.setText(R.string.signed_out);
             mDetailTextView.setText(null);
