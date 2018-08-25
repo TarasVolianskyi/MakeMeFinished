@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "864730492487",
+    "firebase_url": "https://makemefinished.firebaseio.com",
+    "project_id": "makemefinished",
+    "storage_bucket": "makemefinished.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864730492487:android:d8d090598c48a65d",
+        "android_client_info": {
+          "package_name": "com.example.tarasvolianskyi.makemefinished"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864730492487-9hrgm9lntgas3146m8f95lqk8t0bdrc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tarasvolianskyi.makemefinished",
+            "certificate_hash": "7cdcbb13a755ffd9983090da16ac772a3688a44c"
+          }
+        },
+        {
+          "client_id": "864730492487-3o3m8osdcbjdfp6ae69mj8cblit5etd5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "864730492487-3o3m8osdcbjdfp6ae69mj8cblit5etd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcHhvK62yTIZCyLOd5zC2DNsSUs5bxIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864730492487-3o3m8osdcbjdfp6ae69mj8cblit5etd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864730492487:android:1c3204cc1e89009f",
+        "android_client_info": {
+          "package_name": "com.myApp.tarasvolianskyi.makemefinished"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864730492487-57ii1qkb5mru1194q66k1fv2b4gho5gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myApp.tarasvolianskyi.makemefinished",
+            "certificate_hash": "7cdcbb13a755ffd9983090da16ac772a3688a44c"
+          }
+        },
+        {
+          "client_id": "864730492487-3o3m8osdcbjdfp6ae69mj8cblit5etd5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "864730492487-3o3m8osdcbjdfp6ae69mj8cblit5etd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcHhvK62yTIZCyLOd5zC2DNsSUs5bxIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864730492487-3o3m8osdcbjdfp6ae69mj8cblit5etd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
